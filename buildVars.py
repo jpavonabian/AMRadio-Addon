@@ -28,7 +28,7 @@ addon_info = {
 	# version
 	"addon_version": "1.0",
 	# Author(s)
-	"addon_author": "Jesús Pavón Abián <galorasd@gmail.com>",
+	"addon_author": "Jesús Pavón Abián (EA7LEE) <galorasd@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url": "https://github.com/jpavonabian/AMRadio-Addon",
 	# URL for the add-on repository where the source code can be found
