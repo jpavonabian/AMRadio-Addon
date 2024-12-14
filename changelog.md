@@ -1,0 +1,2 @@
+- Initial release of the add-on.
+- SHA256: 
