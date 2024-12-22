@@ -1,2 +1,2 @@
-- Initial release of the add-on.
+- Added an option to know the UTC time.
 - SHA256: 

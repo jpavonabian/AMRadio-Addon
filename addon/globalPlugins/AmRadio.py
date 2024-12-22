@@ -12,6 +12,7 @@ import wx
 import time
 from threading import Thread, Event
 import tones
+from datetime import datetime, timezone
 
 addonHandler.initTranslation()
 
@@ -72,3 +73,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     def script_start_timer(self, gesture):
         self.timer_thread.start_timer()
         ui.message(_("3-minute timer started."))
+        
+    @scriptHandler.script(description=_("Announce the current UTC time (hour and minute)."), gesture=None, category=_("AM Radio Add-on")
+    )
+    def script_announce_utc_time(self, gesture):
+        """Gets the current UTC time and announces it."""
+        current_utc = datetime.now(timezone.utc)
+        hour = current_utc.hour
+        minute = current_utc.minute
+
+        # Format the time in HH:MM format
+        formatted_time = f"{hour:02d}:{minute:02d}"
+
+        ui.message(_("The current UTC time is ") + formatted_time)

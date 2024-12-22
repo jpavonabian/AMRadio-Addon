@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'AMRadio' '1.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2024-12-14 21:52+0100\n"
-"PO-Revision-Date: 2024-12-14 21:57+0100\n"
+"POT-Creation-Date: 2024-12-22 18:36+0100\n"
+"PO-Revision-Date: 2024-12-22 18:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,36 +17,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: addon\globalPlugins\AmRadio.py:58
+#: addon\globalPlugins\AmRadio.py:59
 msgid "Enter Your Callsign"
-msgstr "Introduzca su indicativo"
+msgstr "Introduce el indicativo"
 
-#: addon\globalPlugins\AmRadio.py:58
+#: addon\globalPlugins\AmRadio.py:59
 msgid "Please enter your callsign:"
-msgstr "Por favor, introduzca su indicativo:"
+msgstr "Por favor introduce el indicativo"
 
-#: addon\globalPlugins\AmRadio.py:67
+#: addon\globalPlugins\AmRadio.py:68
 msgid "Open the callsign dialog."
-msgstr "Abre el diálogo de indicativo."
+msgstr "Abre el diálogo de indicativos"
 
-#: addon\globalPlugins\AmRadio.py:67 addon\globalPlugins\AmRadio.py:71
+#: addon\globalPlugins\AmRadio.py:68 addon\globalPlugins\AmRadio.py:72
+#: addon\globalPlugins\AmRadio.py:77
 msgid "AM Radio Add-on"
-msgstr "Complemento de radio AM"
+msgstr "Complemento para radioaficionados"
 
-#: addon\globalPlugins\AmRadio.py:71
+#: addon\globalPlugins\AmRadio.py:72
 msgid "Start a 3-minute timer with tones."
-msgstr "Pon en marcha un temporizador de 3 minutos con tonos."
+msgstr "comenzar un temporizador de 3 minutos con tonos"
 
-#: addon\globalPlugins\AmRadio.py:74
+#: addon\globalPlugins\AmRadio.py:75
 msgid "3-minute timer started."
-msgstr "temporizador de 3 minutos iniciado."
+msgstr "Temporizador de 3 minutos con tonos iniciado"
+
+#: addon\globalPlugins\AmRadio.py:77
+msgid "Announce the current UTC time (hour and minute)."
+msgstr "Anunciar la hora actual UTC (hora y minuto)."
+
+#: addon\globalPlugins\AmRadio.py:88
+msgid "The current UTC time is "
+msgstr "La hora actual UTC es "
 
 #. Translators: The title of the dialog requesting donations from users.
 #: addon\installTasks.py:23
 msgid "Please, donate"
-msgstr "Por favor, done"
+msgstr "Por favor, dona"
 
 #. Translators: The text of the donate dialog
 #: addon\installTasks.py:26
@@ -55,9 +63,9 @@ msgid ""
 "You can make a donation to EA7LEE to help.\n"
 "If you want, you'll redirected to Paypal."
 msgstr ""
-"Complemento de NVDA para radioaficionados.\n"
-"Puedes hacer una donación a EA7LEE para ayudar.\n"
-"Si lo deseas, serás redirigido a Paypal."
+"complemento de NVDA para entusiastas de la radioafición.\n"
+"Puedes donar a EA7LEE para ayudawr.\n"
+"Si quieres, se te redirigirá a Paypal."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
@@ -73,5 +81,5 @@ msgid ""
 "NVDA Add-on for amateur radio enthusiasts\n"
 "    "
 msgstr ""
-"Complemento de NVDA para radioaficionados\n"
+"Complemento de NVDA para entusiastas de la radioafición\n"
 "    "

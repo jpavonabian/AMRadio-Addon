@@ -10,6 +10,6 @@
 ## Cómo funciona
 - **Temporizador**: El temporizador se puede iniciar mediante un gesto específico. Reproduce tonos en los intervalos designados y anuncia el inicio del temporizador.
 - **Búsqueda de indicativos**: Los usuarios pueden abrir un cuadro de diálogo para introducir un indicativo. Al enviarlo, serán redirigidos a la página correspondiente en QRZ.com.
-
+- Hora UTC: Los usuarios pueden saber la hora UTC.
 ## Atajos de teclado
 Los atajos de teclado deben ser asignados por el usuario a través de la opción "Gestos de entrada" en el menú de preferencias de NVDA. Ambas funciones están disponibles bajo la categoría "Complemento de Radioaficionados".
