@@ -9,5 +9,6 @@
 - Timer: The timer can be started with a specific gesture. It plays tones at the designated intervals and announces the start of the timer.
 - Callsign Lookup: Users can open a dialog to enter a callsign. After submission, they are redirected to the QRZ.com page for that callsign.
 - UTC time: Users can know the UTC time.
+- Open brand meister hoseline: Users can open brand meister hoseline.
 ## Keyboard Shortcuts
 Keyboard shortcuts must be assigned by the user through the "Input gestures" option in NVDA's Preferences menu. Both features are available under the category "AM Radio Add-on."
