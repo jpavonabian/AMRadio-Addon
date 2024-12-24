@@ -1,2 +1,3 @@
 - Added an option to know the UTC time.
+- added a function to open brand meister hoseline, well if you want to hear dmr
 - SHA256: 

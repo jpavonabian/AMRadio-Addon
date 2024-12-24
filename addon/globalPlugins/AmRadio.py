@@ -7,14 +7,17 @@ import globalPluginHandler
 import scriptHandler
 import ui
 import addonHandler
+import logHandler
 import webbrowser
 import wx
 import time
 from threading import Thread, Event
 import tones
 from datetime import datetime, timezone
-
-addonHandler.initTranslation()
+try:
+    addonHandler.initTranslation()
+except Exception as e:
+    logHandler.error(f"the translation can't be initialiced due the following error: {e}")
 
 TONE_WARNING_TIME = 160  # 2 minutes and 40 seconds
 TIMER_DURATION = 180  # 3 minutes in seconds
@@ -57,11 +60,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         """Open a dialog to enter the callsign and navigate to QRZ."""
         def open_dialog():
             dialog = wx.TextEntryDialog(None, _( "Enter Your Callsign"), _( "Please enter your callsign:"))
-            if dialog.ShowModal() == wx.ID_OK:
-                callsign = dialog.GetValue().strip().upper()
-                if callsign:
-                    webbrowser.open(f"https://www.qrz.com/db/{callsign}")
-            dialog.Destroy()
+            try:
+                if dialog.ShowModal() == wx.ID_OK:
+                    callsign = dialog.GetValue().strip().upper()
+                    if callsign:
+                        webbrowser.open(f"https://www.qrz.com/db/{callsign}")
+            except Exception as e:
+                logHandler.error(f"an error ocurred due opening the callsign page. error: {e}")
+            finally:
+                dialog.Destroy()
 
         wx.CallAfter(open_dialog)
 
@@ -86,3 +93,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         formatted_time = f"{hour:02d}:{minute:02d}"
 
         ui.message(_("The current UTC time is ") + formatted_time)
+
+    @scriptHandler.script(description=_("opens the brand meister hoseline"), gesture=None, category=_("AM Radio Add-on"))
+    def script_open_brand_meister(self, gesture):
+        """opens brand meister hoseline to hear dmr radio talk groops"""
+        #try-except to verify if the webbrouser execution works good
+        try:
+            webbrowser.open("https://hose.brandmeister.network/")
+            #if execution can't be finished due an error, print into the nvda log
+        except Exception as e:
+            logHandler.error(f"an exception ocured wen opens brand meister. exception: {e}")
