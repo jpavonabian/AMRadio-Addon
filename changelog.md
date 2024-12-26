@@ -1,2 +1,2 @@
-- Added a function to open brand meister hoseline, well if you want to hear dmr
+- Added a function to open Brand Meister Hoseline, well if you want to hear dmr
 - SHA256: 
