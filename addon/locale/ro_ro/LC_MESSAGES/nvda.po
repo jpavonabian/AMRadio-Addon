@@ -51,7 +51,7 @@ msgid "The current UTC time is "
 msgstr "Timpul UTC actual este "
 
 #: AmRadio.py:97
-msgid "opens the brand meister hoseline"
+msgid "jOpen the brand meister hoseline"
 msgstr "deschide Brand Meister Hoseline"
 
 #~ msgid "Please, donate"

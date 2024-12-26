@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 try:
     addonHandler.initTranslation()
 except Exception as e:
-    logHandler.error(f"the translation can't be initialiced due the following error: {e}")
+    logHandler.error(f"The translation can't be initialiced due the following error: {e}")
 
 TONE_WARNING_TIME = 160  # 2 minutes and 40 seconds
 TIMER_DURATION = 180  # 3 minutes in seconds
@@ -66,7 +66,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
                     if callsign:
                         webbrowser.open(f"https://www.qrz.com/db/{callsign}")
             except Exception as e:
-                logHandler.error(f"an error ocurred due opening the callsign page. error: {e}")
+                logHandler.error(f"An error ocurred due opening the callsign page. Error: {e}")
             finally:
                 dialog.Destroy()
 
@@ -94,12 +94,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
         ui.message(_("The current UTC time is ") + formatted_time)
 
-    @scriptHandler.script(description=_("opens the brand meister hoseline"), gesture=None, category=_("AM Radio Add-on"))
+    @scriptHandler.script(description=_("Open the brand meister hoseline"), gesture=None, category=_("AM Radio Add-on"))
     def script_open_brand_meister(self, gesture):
-        """opens brand meister hoseline to hear dmr radio talk groops"""
-        #try-except to verify if the webbrouser execution works good
+        """Opens brand meister hoseline to hear dmr radio talk grops"""
+        #Try-except to verify if the webbrouser execution works good
         try:
             webbrowser.open("https://hose.brandmeister.network/")
-            #if execution can't be finished due an error, print into the nvda log
+            #If execution can't be finished due an error, print into the nvda log
         except Exception as e:
-            logHandler.error(f"an exception ocured wen opens brand meister. exception: {e}")
+            logHandler.error(f"An exception ocured wen opens Brand Meister. Exception: {e}")
