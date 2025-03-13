@@ -1,2 +1,2 @@
-- Added a function to open Brand Meister Hoseline, well if you want to hear dmr
+- Added Russian translation.
 - SHA256: 
