@@ -26,7 +26,7 @@ addon_info = {
 	"addon_description": _("""NVDA Add-on for amateur radio enthusiasts
     """),
 	# version
-	"addon_version": "1.3",
+	"addon_version": "1.4",
 	# Author(s)
 	"addon_author": "Jesús Pavón Abián (EA7LEE) <galorasd@gmail.com>",
 	# URL for the add-on documentation support

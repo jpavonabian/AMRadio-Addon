@@ -1,2 +1,2 @@
-- Added Russian translation.
+- Updated Russian translation.
 - SHA256: 
