@@ -8,60 +8,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'AMRadio' '1.1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2024-12-26 07:42+0100\n"
-"PO-Revision-Date: 2025-02-21 22:17+0300\n"
+"POT-Creation-Date: 2025-04-01 04:06+0500\n"
+"PO-Revision-Date: 2025-05-16 15:22+0500\n"
 "Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
 "Language-Team: Translators <nvda-translations@groups.io>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: addon\n"
+"X-Poedit-SearchPath-2: addon/globalPlugins\n"
 
-#: addon\globalPlugins\AmRadio.py:62
+#: addon/globalPlugins/AmRadio.py:62
 msgid "Enter Your Callsign"
-msgstr "Введите свой Позывной"
+msgstr "Введите ваш Позывной"
 
-#: addon\globalPlugins\AmRadio.py:62
+#: addon/globalPlugins/AmRadio.py:62
 msgid "Please enter your callsign:"
-msgstr "Пожалуйста, введите свой позывной:"
+msgstr "Пожалуйста, введите ваш позывной:"
 
-#: addon\globalPlugins\AmRadio.py:75
+#: addon/globalPlugins/AmRadio.py:75
 msgid "Open the callsign dialog."
-msgstr "Открыть диалог позывного."
+msgstr "Открывает диалог ввода позывного."
 
-#: addon\globalPlugins\AmRadio.py:75 addon\globalPlugins\AmRadio.py:79
-#: addon\globalPlugins\AmRadio.py:84 addon\globalPlugins\AmRadio.py:97
+#: addon/globalPlugins/AmRadio.py:75 addon/globalPlugins/AmRadio.py:79
+#: addon/globalPlugins/AmRadio.py:84 addon/globalPlugins/AmRadio.py:97
 msgid "AM Radio Add-on"
 msgstr "Дополнение AM Radio"
 
-#: addon\globalPlugins\AmRadio.py:79
+#: addon/globalPlugins/AmRadio.py:79
 msgid "Start a 3-minute timer with tones."
-msgstr "Запустить 3-минутный таймер с тонами."
+msgstr "Запускает таймер на 3 минуты со звуковой индекацией."
 
-#: addon\globalPlugins\AmRadio.py:82
+#: addon/globalPlugins/AmRadio.py:82
 msgid "3-minute timer started."
-msgstr "Запущен 3-минутный таймер."
+msgstr "Таймер на 3 минуты запущен."
 
-#: addon\globalPlugins\AmRadio.py:84
+#: addon/globalPlugins/AmRadio.py:84
 msgid "Announce the current UTC time (hour and minute)."
-msgstr "Объявить текущее время UTC (час и минута)."
+msgstr "Объявляет текущее время UTC (часы и минуты)."
 
-#: addon\globalPlugins\AmRadio.py:95
+#: addon/globalPlugins/AmRadio.py:95
 msgid "The current UTC time is "
 msgstr "Текущее время UTC "
 
-#: addon\globalPlugins\AmRadio.py:97
+#: addon/globalPlugins/AmRadio.py:97
 msgid "Open the brand meister hoseline"
 msgstr "Открыть brand meister hoseline"
 
-#. Translators: The title of the dialog requesting donations from users.
-#: addon\installTasks.py:23
+#: addon/installTasks.py:23
 msgid "Please, donate"
 msgstr "Пожалуйста, пожертвуйте"
 
-#. Translators: The text of the donate dialog
-#: addon\installTasks.py:26
+#: addon/installTasks.py:26
 msgid ""
 "NVDA Add-on for amateur radio enthusiasts.\n"
 "You can make a donation to EA7LEE to help.\n"
@@ -71,15 +73,10 @@ msgstr ""
 "Вы можете сделать пожертвование для EA7lee, чтобы помочь.\n"
 "Если хотите, вас перенаправят в PayPal."
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "AMRadio"
 msgstr "AMRadio"
 
-#. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:26
 msgid ""
 "NVDA Add-on for amateur radio enthusiasts\n"
