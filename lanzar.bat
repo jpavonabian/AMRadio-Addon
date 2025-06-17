@@ -1,6 +1,5 @@
 @echo off
 setlocal enabledelayedexpansion
-REM añadir a lo bestia.
 git add .
 
 REM Pedir número de versión
