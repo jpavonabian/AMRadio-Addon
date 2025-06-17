@@ -4,7 +4,7 @@ REM añadir a lo bestia.
 git add .
 
 REM Pedir número de versión
-set /p VERSION=Introduce el número de versión (ej: 1.2.3): 
+set /p VERSION=Introduce el numero de version (ej: 1.2.3): 
 
 REM Hacer commit con el mensaje
 git commit -am "Release %VERSION%"
@@ -14,7 +14,7 @@ if errorlevel 1 (
 )
 
 REM Crear el tag
-git tag v%VERSION%
+git tag %VERSION%
 if errorlevel 1 (
     echo Error al crear el tag.
     goto :eof
@@ -22,10 +22,10 @@ if errorlevel 1 (
 
 REM Push del commit y del tag
 git push
-git push origin v%VERSION%
+git push origin %VERSION%
 
 echo ===========================
-echo Versión %VERSION% publicada.
+echo Version %VERSION% publicada.
 echo ===========================
 
 endlocal
