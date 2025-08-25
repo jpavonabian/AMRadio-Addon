@@ -1,3 +1,9 @@
+![Build](https://github.com/jpavonabian/AMRadio-Addon/actions/workflows/upload-on-tag.yml/badge.svg)
+![Release](https://img.shields.io/github/v/release/jpavonabian/AMRadio-Addon)
+![License](https://img.shields.io/github/license/jpavonabian/AMRadio-Addon)
+![Downloads](https://img.shields.io/github/downloads/jpavonabian/AMRadio-Addon/total)
+![Top language](https://img.shields.io/github/languages/top/jpavonabian/AMRadio-Addon)
+
 # Amateur Radio Add-on for NVDA
 
 ## Description
