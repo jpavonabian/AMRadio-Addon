@@ -1,2 +1,2 @@
-- Added compativility with NVDA 2025.1.
+- Added compativility with NVDA 2026.1.
 - SHA256: 
